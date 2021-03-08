@@ -1,4 +1,13 @@
 # practica1
+<h1>
+    Practica sencilla - introduccion al framework VueJs
+</h1>
+    <hr>
+<i>
+    <strong>
+        Dilson Porras
+    </strong>
+</i>
 
 ## Project setup
 ```

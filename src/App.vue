@@ -1,15 +1,27 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>
+    {{nametable}}
+  </h1>
+  <!--<HelloWorld msg="Welcome to Your Vue.js App"/>-->
+  <hr>
+  <index/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+//import HelloWorld from './components/HelloWorld.vue'
+import Index from './components/Index.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    //HelloWorld,
+    Index
+  },
+  data(){
+    return{
+    nametable: "Lista de tareas VueJs"
+    }
   }
 }
 </script>
